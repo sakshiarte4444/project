@@ -1,0 +1,43 @@
+<div class="container">
+    <form [formGroup]="signup" (ngSubmit)="signupdata(signup)" class="form-box1">
+        <h1>SignUp</h1>
+        <div class="form-group">
+            
+            <input type="text" formControlName="specifyuser" class="form-control box" placeholder="Enter User Type" />
+        </div>
+        <br /><br />
+        <div class="form-group">
+            
+            <input type="text" formControlName="fname" class="form-control  box" placeholder="Enter First Name" />
+        </div>
+        <br /><br />
+        <div class="form-group">
+            
+            <input type="text" formControlName="lname" class="form-control  box" placeholder="Enter Last Name" />
+        </div>
+        <br /><br />
+        <div class="form-group">
+            
+            <input type="email" formControlName="email" class="form-control  box" placeholder="Enter Email" />
+        </div>
+        <br /><br />
+        <div class="form-group">
+            
+            <input type="number" formControlName="phonenumber" class="form-control  box"
+                placeholder="Enter Phonenumber" />
+        </div>
+        <br /><br />
+        <div class="form-group">
+            
+            <input type="password" formControlName="password" class="form-control  box"
+                placeholder="Enter Password" />
+        </div>
+        <br/>
+        <p>Already Have Account?<a routerLink="/login">Login</a></p>
+        <br />
+        <button type="submit" class="btn btn-success">SignUp</button>
+    </form>
+
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,36 @@
+<p>Admin Page:</p>
+<html>
+<body>
+<section style="background-color:white">
+  
+<div class="table1">
+        
+<table class="table" *ngFor="let users of signupusers ">
+    <thead class="table-dark">
+      <tr>
+        <th scope="col">ID</th>
+        <th scope="col">User Type</th>
+        <th scope="col">First Name</th>
+        <th scope="col">Last Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Mobile No.</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{users.id}}</td>
+        <td>{{users.specifyuser}}</td>
+        <td>{{users.fname}}</td>
+        <td>{{users.lname}}</td>
+        <td>{{users.email}}</td>
+        <td>{{users.phonenumber}}</td>
+        </tr>
+      
+    </tbody>
+  </table>
+  
+  </div>
+</section>
+</body>
+</html>

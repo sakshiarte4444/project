@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signUsers": [
+    {
+      "specifyuser": "Admin",
+      "fname": "sak",
+      "lname": "arte",
+      "email": "sak@gmail.com",
+      "phonenumber": 7777,
+      "password": "123",
+      "id": 2
+    },
+    {
+      "specifyuser": "Client",
+      "fname": "sam",
+      "lname": "a",
+      "email": "sam.gmail.com",
+      "phonenumber": 222,
+      "password": "123",
+      "id": 4
+    },
+    {
+      "specifyuser": "Consultant",
+      "fname": "tony",
+      "lname": "tony",
+      "email": "tony@gmail.com",
+      "phonenumber": 1111,
+      "password": "123",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
